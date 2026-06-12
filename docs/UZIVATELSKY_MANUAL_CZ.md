@@ -183,7 +183,7 @@ Aplikace podporuje 6 typů kol, každý s jiným profilováním trasy:
 
 ---
 
-## Stily tras (Route Style)
+## Styly tras (Route Style)
 
 Každý styl tras definuje, jak moc se priorizuje bezpečí, rychlost nebo délka trasy:
 
