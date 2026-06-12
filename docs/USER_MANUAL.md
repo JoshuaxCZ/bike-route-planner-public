@@ -336,9 +336,9 @@ Zatlačením na ikonu menu otevřete boční menu s dalšími funkcemi:
 1. Zatlačte na tlačítko **Okruh**
 2. Zvolte počáteční polohu (GPS nebo výběr na mapě)
 3. Nastavte cílovou vzdálenost:
-   - Minimálně: 10 km
+   - Minimálně: 5 km
    - Doporučeno: 30 km
-   - Maximálně: 180 km
+   - Maximálně: 150 km
 4. Zvolte počet smyček:
    - Minimálně: 3 body
    - Doporučeno: 6 bodů

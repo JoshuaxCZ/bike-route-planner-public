@@ -336,9 +336,9 @@ Tapping the menu icon opens the side menu with additional features:
 1. Tap the **Round trip** button
 2. Select the starting position (GPS or map selection)
 3. Set target distance:
-   - Minimum: 10 km
+   - Minimum: 5 km
    - Recommended: 30 km
-   - Maximum: 180 km
+   - Maximum: 150 km
 4. Select number of loop points:
    - Minimum: 3 points
    - Recommended: 6 points
