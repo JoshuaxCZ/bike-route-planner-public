@@ -1,27 +1,28 @@
-# User Manual - Bike Route Planner
+# User Manual – Bike Route Planner
 
 ## Product Overview
 
-**Bike Route Planner** (BRP for short) is an Android application for cyclists that helps you plan routes and provides turn-by-turn navigation instructions during your ride. The app is designed to help you reach your destination safely and efficiently.
+**Bike Route Planner** (**BRP**) is an Android application for cyclists that helps you plan routes and provides navigation instructions during your ride. The app is designed to help you reach your destination safely, clearly, and efficiently.
 
-### Who is this app for?
+### Who is the app for?
 
-The app is designed for all types of cyclists:
-- **Road cyclists** - looking for smooth routes on paved surfaces
-- **Gravel riders** - wanting a combination of asphalt and light unpaved roads
-- **MTB cyclists** - seeking forest trails and technical sections
-- **Commuters** - riding daily to work or around the city
-- **Tourists** - looking for longer rides with stable pace
-- **Explorers** - wanting to discover new sections
+The app is suitable for different types of cyclists:
 
-### Key Features
+* **Road cyclists** – riders looking for smooth routes on paved surfaces.
+* **Gravel riders** – riders who want to combine asphalt, gravel, and lightly unpaved roads.
+* **MTB riders** – riders who prefer forest roads, trails, and off-road sections.
+* **Commuters** – riders who regularly travel to work, school, or around the city.
+* **Touring cyclists** – riders planning longer trips at a steady pace.
+* **Explorers** – riders who want to discover new routes and less familiar sections.
 
-- **Offline routing** - no internet connection needed during the ride
-- **Custom route planning** - create routes according to your preferences
-- **Overlay navigation** - routes from BRP are displayed in VARIA_RADAR app
-- **Multiple bike types** - profile selection based on your bike
-- **Multiple route styles** - faster, shorter, safer, or balanced
-- **Round trip generation** - generate circular routes with configurable distance
+### Key Benefits
+
+* **Offline routing** – no internet connection is required during the ride.
+* **Custom route planning** – create routes based on your own preferences.
+* **Overlay navigation** – routes from BRP can be displayed in Bike Radar Overlay.
+* **Multiple bike types** – route calculation adapts to the selected bike type.
+* **Multiple route styles** – choose a faster, shorter, safer, or balanced route.
+* **Loop routes** – the app can generate round trips based on a selected distance.
 
 ---
 
@@ -29,211 +30,259 @@ The app is designed for all types of cyclists:
 
 ### Device Requirements
 
-- **Android 8.0** (API 26) or newer
-- **GPS sensor** - required for location services
-- **Some free space** for map data
+* **Android 8.0** / **API 26** or newer
+* **GPS sensor** for location tracking
+* **Free storage space** for map data
 
-### BRouter Installation
+### Installing BRouter
 
-BRP requires the **BRouter** application to be installed. BRouter is an offline routing application created by Filip Němek.
+BRP requires the **BRouter** app to work correctly. BRouter is used for offline route calculation.
 
-#### How to install BRouter:
+#### How to install BRouter
 
-1. Open BRP and on first launch you will see a dialog to download BRouter
-2. Go to Google Play Store and install the **BRouter** app
-3. After installation, open BRouter and download map data for the area where you plan to ride
+1. Open BRP. On first launch, a dialog will appear with an option to download BRouter.
+2. Go to the Google Play Store and install **BRouter**.
+3. After installation, open BRouter and download map data for the area where you want to plan routes.
 
-### VARIA_RADAR Installation (Optional)
+### Installing Bike Radar Overlay
 
-If you want to display navigation in an overlay (e.g., on a helmet or head unit), install the **VARIA_RADAR** app.
+Installing **Bike Radar Overlay** is optional.
 
-VARIA_RADAR is an application for detecting vehicles approaching from behind and displaying navigation instructions in lock-screen / riding display mode.
+If you want to display navigation instructions in overlay mode, for example on the lock screen or in a riding display, install **Bike Radar Overlay** as well.
+
+Bike Radar Overlay is used to display information during the ride and can also show navigation instructions from BRP.
 
 ---
 
 ## Introduction to Route Planning
 
-### Getting Started
+### How to start
 
-1. Launch the **Bike Route Planner** app
-2. On the main screen, tap the **Planner** button
-3. Now select the start point and destination
+1. Launch **Bike Route Planner**.
+2. On the main screen, tap **Planner**.
+3. Select the start point and destination of the route.
 
-### Selecting the Start Point
+### Selecting the start point
 
-- **Use GPS**: Tap the location icon in the top right corner - the app will use your current position
-- **Select on map**: Tap and hold on the map where you want the start point to be
+* **Use GPS**: Tap the location icon in the top-right corner. The app will use your current location.
+* **Select on map**: Tap and hold the place on the map where the route should start.
 
-### Selecting the Destination
+### Selecting the destination
 
-- **Select on map**: Tap and hold on the map where you want the destination to be
-- **Cancel destination**: Confirm your selection by tapping the X icon in the top right corner
+* **Select on map**: Tap and hold the place on the map where the route should end.
+* **Cancel destination**: You can cancel the destination by tapping the **X** icon in the top-right corner.
 
-### Adding Stopovers (Waypoints)
+### Adding via points
 
-- After selecting the destination, tap the **+** button
-- Then tap and hold on the map - this adds a stopover point
-- You can add up to 8 stopover points
+Via points are used to make the route pass through specific places.
+
+1. After selecting the destination, tap the **+** button.
+2. Tap and hold the desired place on the map.
+3. A new via point will be added.
+
+You can add up to **8 via points**.
 
 ---
 
 ## Bike Types
 
-The app supports 6 bike types, each with different routing profiles:
+The app supports 6 bike types. Each type uses different route profiling.
 
-### 1. Road
+### 1. Road – Road Bike
 
-**Description**: Road profile focused on paved surfaces, smooth flow and safety.
+**Description:**
+A road profile focused on paved surfaces, smooth riding, and safety.
 
-**Preferences**:
-- Asphalt and concrete surfaces
-- Cycleways and signed cycle routes
-- Residential areas with low speed limits
+**Prefers:**
 
-**Avoids**:
-- Off-road paths without paved surface
-- Poor quality surfaces
-- Technically challenging sections
+* asphalt and concrete surfaces,
+* cycle paths and cycling routes,
+* residential areas with lower traffic speed.
 
-**Who it's for**: Road cyclists who want a smooth and safe ride.
+**Avoids:**
 
-### 2. Gravel
+* unpaved off-road tracks,
+* poor-quality surfaces,
+* technically difficult sections.
 
-**Description**: A mix of asphalt, gravel and rideable unpaved roads.
+**Recommended for:**
+Road bike riders who want a smooth and safe ride on good-quality surfaces.
 
-**Preferences**:
-- Asphalt and paved surfaces
-- Light gravel and rougher terrain
-- Quality forest and field roads
+### 2. Gravel – Gravel Bike
 
-**Tolerates**:
-- Medium quality unpaved roads
-- Tracktype grade 1-3
+**Description:**
+A profile combining asphalt, gravel, and well-rideable unpaved roads.
 
-**Does not allow**:
-- Poorly passable surfaces
-- Very technical sections
+**Prefers:**
 
-**Who it's for**: Gravel riders who want a combination of road and light off-road.
+* asphalt and paved surfaces,
+* fine gravel,
+* good-quality forest and field roads.
 
-### 3. MTB (Off-road)
+**Tolerates:**
 
-**Description**: Profile for terrain, trails and more technical sections.
+* medium-quality unpaved roads,
+* roads tagged as `tracktype grade 1–3`.
 
-**Preferences**:
-- Off-road trails and mountain bike routes
-- Forest and park paths
-- Tracktype grade 1-3
+**Avoids:**
 
-**Tolerates**:
-- Unpaved surfaces
-- Footpaths, if cycling is allowed
-- Quality footpaths
+* poorly rideable surfaces,
+* highly technical sections.
 
-**Avoids**:
-- Motor vehicle roads without bicycle permission
-- Roads with explicit prohibitions
+**Recommended for:**
+Gravel riders who want a mix of road and light off-road riding.
 
-**Who it's for**: MTB riders who want to ride in off-road terrain.
+### 3. MTB – Mountain Bike
 
-### 4. Touring
+**Description:**
+A profile for off-road riding, trails, and more technical sections.
 
-**Description**: Longer rides with stable pace and reliable surfaces.
+**Prefers:**
 
-**Preferences**:
-- Reliable surfaces
-- Routes with stable speed
-- Longer routes with smooth pace
+* off-road routes and trails,
+* forest and park paths,
+* roads tagged as `tracktype grade 1–3`.
 
-**Tolerates**:
-- Medium quality unpaved roads
-- Low-speed roads
+**Tolerates:**
 
-**Who it's for**: Touring cyclists who want longer rides with comfortable pace.
+* unpaved surfaces,
+* footpaths where cycling is allowed,
+* good-quality hiking paths.
 
-### 5. Commute
+**Avoids:**
 
-**Description**: Daily transport with emphasis on reliability and time.
+* motor-vehicle roads where bicycles are not allowed,
+* roads with clear access restrictions.
 
-**Preferences**:
-- Paved surfaces
-- Direct routes
-- Reliable and familiar roads
+**Recommended for:**
+MTB riders who want to ride off-road.
 
-**Tolerates**:
-- Cycleways
-- Residential areas
+### 4. Touring – Touring Bike
 
-**Who it's for**: Daily commuters to work or school.
+**Description:**
+A profile for longer rides at a steady pace and on reliable surfaces.
 
-### 6. Explore
+**Prefers:**
 
-**Description**: Discovering new sections even if the route is less predictable.
+* reliable surfaces,
+* routes with a smooth pace,
+* longer routes suitable for comfortable riding.
 
-**Preferences**:
-- New and unfamiliar routes
-- Combination of surfaces
-- Discovering new places
+**Tolerates:**
 
-**Tolerates**:
-- More risky sections
-- Less predictable routes
+* medium-quality unpaved roads,
+* calmer roads with lower traffic speeds.
 
-**Who it's for**: Explorers who want to discover new routes.
+**Recommended for:**
+Touring cyclists who want longer and more comfortable routes.
+
+### 5. Commute – Commuter Bike
+
+**Description:**
+A profile for everyday transport with emphasis on reliability, clarity, and time.
+
+**Prefers:**
+
+* firm surfaces,
+* direct routes,
+* familiar and reliable roads.
+
+**Tolerates:**
+
+* cycle paths,
+* residential areas,
+* urban roads suitable for bicycles.
+
+**Recommended for:**
+Daily rides to work, school, or around the city.
+
+### 6. Explore – Exploration Profile
+
+**Description:**
+A profile for discovering new routes and less familiar sections, even at the cost of lower predictability.
+
+**Prefers:**
+
+* new and less familiar routes,
+* a mix of different surfaces,
+* discovering new places.
+
+**Tolerates:**
+
+* more risky sections,
+* less predictable routes,
+* greater surface variety.
+
+**Recommended for:**
+Riders who want to discover new routes and do not mind a higher level of uncertainty.
 
 ---
 
 ## Route Styles
 
-Each route style defines how much priority is given to safety, speed or distance:
+The route style determines how the app balances safety, speed, distance, and comfort.
 
-### 1. Faster
+### 1. Faster – Faster Route
 
-**Description**: Shorter or faster profile. May include busier roads where cycling is legal.
+**Description:**
+A faster profile that gives higher priority to travel time. It may use busier roads if cycling is allowed there.
 
-**What it does**:
-- Priority on speed and route length
-- May accept roads with higher traffic
-- If an alternative is faster, it will choose it even through traffic
+**What it does:**
 
-**Warning**: This style may lead on roads with higher traffic where cycling is legal. Bicycle-forbidden roads are excluded.
+* prioritizes speed and efficiency,
+* may accept roads with heavier traffic,
+* selects a faster option even if it is less calm.
 
-**Use when**: You need to reach your destination as quickly as possible and are willing to ride on smaller roads.
+**Notice:**
+This style may route you along roads with heavier traffic. Sections where cycling is prohibited remain excluded.
 
-### 2. Shortest
+**Use case:**
+Suitable when you need to reach your destination as quickly as possible and do not mind riding on less quiet roads.
 
-**Description**: Preference for the shortest route. May include less comfortable or busier sections where cycling is legal.
+### 2. Shortest – Shortest Route
 
-**What it does**:
-- Priority on minimum route length
-- May choose shorter but less comfortable roads
-- May lead on roads with higher traffic
+**Description:**
+A profile focused on minimizing total route distance. It may include less comfortable or busier sections if cycling is legally allowed there.
 
-**Warning**: This style may lead on less comfortable or busier sections where cycling is legal.
+**What it does:**
 
-**Use when**: You want the shortest route regardless of comfort.
+* minimizes total route length,
+* may choose shorter but less comfortable roads,
+* may use roads with heavier traffic.
 
-### 3. Touring (Balanced)
+**Notice:**
+The shortest route is not always the most comfortable or the safest option.
 
-**Description**: Balanced profile for regular rides and longer routes.
+**Use case:**
+Suitable when you want the shortest possible route regardless of comfort.
 
-**What it does**:
-- Compromise between speed, safety and quality
-- Accepts medium traffic roads
-- Prefers quality surfaces
+### 3. Touring / Balanced – Balanced Route
 
-**Use**: Default choice for most users who want a balanced route.
+**Description:**
+A balanced profile for regular rides and longer trips.
 
-### 4. Safer
+**What it does:**
 
-**Description**: Stronger preference for quiet sections, cycleways and lower traffic.
+* balances speed, safety, and surface quality,
+* accepts moderately busy roads,
+* prefers good-quality and reliable surfaces.
 
-**What it does**:
-- Priority on safe routes
-- Strongly penalizes main roads without cycling infrastructure
-- Prefers cycleways, residential areas and quiet roads
+**Use case:**
+Recommended as the default option for most users.
 
-**Use**: When you prefer a quiet ride and are willing to ride longer for greater safety.
+### 4. Safer – Safer Route
+
+**Description:**
+A profile with a stronger preference for calm sections, cycle paths, and roads with lower traffic.
+
+**What it does:**
+
+* prioritizes safer routes,
+* strongly penalizes main roads without bike lanes,
+* prefers cycle paths, residential areas, and quiet roads.
+
+**Use case:**
+Suitable if you prefer a calmer ride and are willing to take a longer route in exchange for higher safety.
 
 ---
 
@@ -241,7 +290,7 @@ Each route style defines how much priority is given to safety, speed or distance
 
 ### Main Screen
 
-```
+```text id="8eifnj"
 +---------------------------------+
 | [Menu]              [Planner]   |
 |                                 |
@@ -253,465 +302,471 @@ Each route style defines how much priority is given to safety, speed or distance
 +---------------------------------+
 ```
 
-### Menu (lower left corner)
+### Menu
 
-Tapping the menu icon opens the side menu with additional features:
-- **Map planner**: Back to route planning
-- **Edit UI**: Size and appearance settings
-- **Offline data**: BRouter map data management
-- **App settings**: Language, surface, traffic, etc.
-- **Support**: Ko-fi support for development
-- **Exit**: Close the app
+Tap the menu icon in the bottom-left corner to open the side menu with additional functions:
+
+* **Map planner** – return to route planning.
+* **Edit UI** – adjust interface size and appearance.
+* **Offline data** – manage BRouter map data.
+* **App settings** – language, surface display, traffic display, and other options.
+* **Exit** – close the app.
 
 ---
 
 ## Detailed Feature Guide
 
-### Chapter 1: Selecting Start and Destination
+## Chapter 1: Selecting Start and Destination
 
-#### GPS Start Selection
+### Selecting the start point using GPS
 
-1. Tap the **Planner** button
-2. Wait for GPS position acquisition (icon in top right)
-3. When the icon turns green, position is ready
+1. Tap **Planner**.
+2. Wait until the app obtains your GPS location.
+3. Once the location icon turns green, the position is ready to use.
 
-#### Map Start Selection
+### Selecting the start point from the map
 
-1. Tap the **Planner** button
-2. Tap and hold on the map where the start should be
-3. After a while, a confirmation dialog appears
-4. Tap to confirm
+1. Tap **Planner**.
+2. Tap and hold the place on the map where the route should start.
+3. After a moment, a confirmation dialog will appear.
+4. Confirm the selection.
 
-#### Map Destination Selection
+### Selecting the destination from the map
 
-1. After selecting the start, the **To** button appears
-2. Tap and hold on the map where the destination should be
-3. After a while, a confirmation dialog appears
-4. Tap to confirm
+1. After selecting the start point, the **To** button will appear.
+2. Tap and hold the place on the map where the destination should be.
+3. After a moment, a confirmation dialog will appear.
+4. Confirm the selection.
 
-#### Editing Start/Destination
+### Editing the start point or destination
 
-- After selection, you can move the start and destination on the map
-- Tap and hold on the point, then move to the new location
-- Confirm by tapping
+* You can move the selected start point or destination on the map.
+* Tap and hold the point, then move it to a new location.
+* Confirm the new position.
 
-#### Deleting a Point
+### Removing a point
 
-- Tap the X icon next to the point
-- Confirm deletion
-
----
-
-### Chapter 2: Stopovers (Waypoints)
-
-#### Adding a Stopover
-
-1. After selecting the destination, tap the **+** button (add point)
-2. Tap and hold on the map where the stopover should be
-3. Confirm your selection
-
-#### Point Order
-
-- Start is always first
-- Destination is always last
-- Stopovers are prioritized in the order they were selected
-
-#### Changing Order
-
-- Currently cannot change point order
-- If you want different order, create a new route
-
-#### Deleting a Stopover
-
-- Tap the **Clear** button
-- Select the point you want to delete
-- Confirm
+* Tap the **X** icon next to the point.
+* Confirm removal.
 
 ---
 
-### Chapter 3: Round Trip Generation
+## Chapter 2: Via Points
 
-#### How to Generate a Round Trip
+### Adding a via point
 
-1. Tap the **Round trip** button
-2. Select the starting position (GPS or map selection)
-3. Set target distance:
-   - Minimum: 5 km
-   - Recommended: 30 km
-   - Maximum: 150 km
-4. Select number of loop points:
-   - Minimum: 3 points
-   - Recommended: 6 points
-   - Maximum: 9 points
-5. Select preferred direction (N, NE, E, SE, S, SW, W, NW)
-6. Select ride direction (Clockwise or counter-clockwise)
-7. Tap **Generate loop**
+1. After selecting the destination, tap the **+** button.
+2. Tap and hold the place on the map where the via point should be.
+3. Confirm the selection.
 
-#### Editing a Round Trip
+### Point order
 
-- After generation, you can edit points on the map
-- Tap **Edit loop** to edit
-- Tap **Regenerate** for new calculation
+* The start point is always first.
+* The destination is always last.
+* Via points are ordered according to the order in which they were added.
 
-#### Canceling a Round Trip
+### Changing the order
 
-- Tap **Clear loop**
-- The loop will be deleted, but the map remains
+* The order of via points currently cannot be changed.
+* If you need a different order, create a new route.
+
+### Removing a via point
+
+1. Tap **Clear**.
+2. Select the point you want to remove.
+3. Confirm removal.
 
 ---
 
-### Chapter 4: Starting Navigation
+## Chapter 3: Generating a Loop Route
 
-#### Start Navigation
+### How to generate a loop
 
-1. After completing planning, tap **Go**
-2. The app starts processing the route
-3. After completion, tap **Go** to start navigation
+1. Tap **Loop**.
+2. Select the starting location using GPS or by selecting a point on the map.
+3. Set the target distance:
 
-#### During Navigation
+   * minimum: **5 km**,
+   * recommended: **30 km**,
+   * maximum: **150 km**.
+4. Select the number of loop points:
 
-- The app continuously informs you about the status
-- Shows instructions for the next turn
-- Distance to turn is updated every second
+   * minimum: **3 points**,
+   * recommended: **6 points**,
+   * maximum: **9 points**.
+5. Select the preferred direction: **N, NE, E, SE, S, SW, W, NW**.
+6. Select the riding direction: **clockwise** or **counterclockwise**.
+7. Tap **Generate loop**.
 
-#### Pausing Navigation
+### Editing the loop
 
-- Tap **Pause** to pause
-- During pause, instructions are not shown
-- Position is still being tracked
+* After the loop is generated, you can adjust its points directly on the map.
+* Tap **Edit loop** to enter editing mode.
+* Tap **Regenerate** to create a new calculation.
 
-#### Continuing After Pause
+### Deleting the loop
 
-- Tap **Resume**
-- Navigation resumes from the last position
-
-#### Route Recalculation (Reroute)
-
-- If you leave the route, the app automatically recalculates
-- Shows new route from current position
-- This takes a few seconds
-
-#### Canceling Navigation
-
-- Tap **Cancel**
-- Confirm cancellation
-- Map remains, navigation ends
+* Tap **Clear loop**.
+* The loop will be removed, but the map will remain displayed.
 
 ---
 
-### Chapter 5: App Settings
+## Chapter 4: Starting Navigation
 
-#### Language
+### Starting navigation
 
-- **System**: Uses device language
-- **English**: English
-- **Czech**: Czech
+1. After finishing route planning, tap **Go**.
+2. The app will start processing the route.
+3. Once the calculation is complete, tap **Go** again to start navigation.
 
-#### Navigation Language
+### During navigation
 
-- Same options as app language
-- Sets language for instructions and names
+* The app continuously displays navigation status.
+* It shows instructions for the next turn.
+* The distance to the next turn is updated continuously.
 
-#### Default Map Zoom
+### Pausing navigation
 
-- Sets default map zoom level
-- From 3 (whole country) to 19 (street)
-- Recommended: 14
+* Tap **Pause**.
+* Navigation instructions are not shown while paused.
+* Location tracking continues.
 
-#### Show Cycling Overlay
+### Resuming after pause
 
-- Shows signed cycle routes on the map
-- Allows seeing signed cycle routes
-- Ability to change opacity (25-75%)
+* Tap **Resume**.
+* Navigation continues from the current or last known location.
 
-#### Show Hiking Overlay
+### Route recalculation
 
-- Shows hiking trails on the map
-- Allows seeing signed hiking routes
-- Ability to change opacity (25-75%)
+If you leave the planned route, the app automatically recalculates it.
 
-#### Navigation Display Settings
+* A new route is calculated from your current location.
+* Recalculation usually takes a few seconds.
 
-- **Minimum zoom**: Distant turns
-- **Maximum zoom**: Close turns
+### Ending navigation
 
-#### Custom Route Styling
-
-- **Line width**: From 2 to 18
-- **Line color**: Color selection from palette
-
-#### UI Editing
-
-- **Button size**: From 85% to 145%
-- **Control size**: Affects size of elements on map
-- **Rider icon size**: From 20 dp to 44 dp
-- **Navigation banner size**: Text and arrow size settings
+1. Tap **Cancel**.
+2. Confirm that you want to end navigation.
+3. The map remains displayed, but navigation stops.
 
 ---
 
-### Chapter 6: Offline Data (BRouter)
+## Chapter 5: App Settings
 
-#### How to Download Map Data
+### App language
 
-1. Tap **Offline data** in menu
-2. BRouter information is displayed
-3. Tap **Open download manager**
-4. In BRouter app, select the area
-5. Download segments for the area
+* **System** – uses the device language.
+* **English** – English.
+* **Čeština** – Czech.
 
-#### Checking Availability
+### Navigation language
 
-- The app automatically checks if segments are downloaded
-- If not, a warning is displayed
-- Recommended segments are highlighted
+Navigation language controls the language of navigation instructions and names.
 
-#### Recalculating Recommended Segments
+The available options are the same as for the app language.
 
-- After changing start or destination, segments are recalculated
-- Tap **Refresh** to recalculate
+### Default map zoom
 
----
+* Sets the default map zoom level.
+* The range is from **3** to **19**.
+* The recommended value is **14**.
 
-### Chapter 7: VARIA_RADAR Integration
+### Display cycling routes
 
-#### How to Set Up Integration
+* Shows highlighted cycling routes on the map.
+* Helps identify official or marked cycling routes.
+* Transparency can be adjusted between **25–75%**.
 
-1. First install VARIA_RADAR app
-2. Start VARIA_RADAR and complete setup
-3. In BRP, start navigation
-4. Navigation data will be sent to VARIA_RADAR
+### Display walking routes
 
-#### What is Transmitted to VARIA_RADAR
+* Shows hiking and walking routes on the map.
+* Helps with planning routes in nature or outside cities.
+* Transparency can be adjusted between **25–75%**.
 
-- **Distance to turn**: In meters
-- **Turn type**: Message like "Right", "Left", etc.
-- **Street name**: Name of the street you are on
-- **Time to destination**: Estimated Time of Arrival
-- **Navigation status**: Active, Completed, GPS Lost
+### Navigation display settings
 
-#### Display in VARIA_RADAR
+* **Minimum zoom** – used for more distant turns.
+* **Maximum zoom** – used for nearby turns.
 
-- The app displays navigation on lock-screen (after screen lock)
-- If distance is less than 200m, the screen lights up
-- Radar alert has higher priority than navigation
+### Custom route style
 
----
+* **Line width** – adjustable from **2–18**.
+* **Line color** – selectable from the available palette.
 
-### Chapter 8: Route Explanation
+### Interface customization
 
-#### Why Did the App Choose This Route?
-
-The app outputs a route summary:
-- **Length**: Total distance
-- **Duration**: Estimated time
-- **Surface**: Percentage of different surfaces (asphalt, gravel, etc.)
-- **Traffic**: Percentage of different traffic levels
-- **Risks**: Number of problematic sections (U-turns, sharp turns)
-
-#### Problematic Sections
-
-The app marks problematic sections in orange:
-- **Possible U-turn**
-- **Sharp reversal**
-- **Same-road return**
-
-#### Binding Filters
-
-The app excludes:
-- `highway=motorway` (motorways)
-- `bicycle=no` (bicycle prohibition)
-- `access=private` without exception
-- `construction` (construction sites)
+* **Button size** – adjustable from **85–145%**.
+* **Control size** – affects the size of map controls.
+* **Rider icon size** – adjustable from **20–44 dp**.
+* **Navigation banner size** – adjusts the size of the text and arrow.
 
 ---
 
-### Chapter 9: Variable Settings
+## Chapter 6: Offline Data for BRouter
 
-#### Why Are There Multiple Profiles?
+### How to download map data
 
-Each bike type and route style has different routing code because:
-- **Road bike** needs smooth surface
-- **Gravel bike** can handle light terrain
-- **MTB** can ride on trails
+1. In the menu, tap **Offline data**.
+2. Information about BRouter will be displayed.
+3. Tap **Open download manager**.
+4. In BRouter, select the desired area.
+5. Download the segments for the area where you want to plan routes.
 
-#### How Does Profiling Work?
+### Checking data availability
 
-Profiling is based on:
-1. **Bike type selection** - determines what is physically suitable
-2. **Route style selection** - determines how to compromise between safety and speed
-3. **User preferences** - exclusion of steps, prohibitions, etc.
+* The app automatically checks whether the required segments are downloaded.
+* If any are missing, a warning is displayed.
+* Recommended segments are highlighted.
 
-#### Profile Examples
+### Recalculating recommended segments
 
-**Road + Safer**:
-- Chooses cycleways and residential areas
-- Avoids main roads
-- May be longer but safer
-
-**Gravel + Fast**:
-- Allows light terrain
-- Priority on speed
-- May choose faster route through terrain
-
-**MTB + Safe**:
-- Allows off-road
-- Prevents dangerous sections
-- Prefers safe routes
+* After changing the start point or destination, the recommended segments are recalculated.
+* Tap **Refresh** to start a new calculation.
 
 ---
 
-### Chapter 10: Typical Usage Scenarios
+## Chapter 7: Bike Radar Overlay Integration
 
-#### Scenario 1: Daily Commute to Work
+### How to set up the integration
 
-1. Start BRP
-2. Choose **Commute** + **Faster**
-3. Choose start (home) and destination (work)
-4. Start navigation
+1. Install **Bike Radar Overlay**.
+2. Launch Bike Radar Overlay and complete the basic setup.
+3. Plan a route in BRP and start navigation.
+4. Navigation data will be sent to Bike Radar Overlay.
 
-#### Scenario 2: Weekend Ride
+### What is sent to Bike Radar Overlay
 
-1. Start BRP
-2. Choose **Gravel** or **Touring**
-3. Choose **Safer** or **Touring**
-4. Choose destination and route
-5. Start navigation
+* **Distance to turn** – in meters.
+* **Turn type** – for example “Right”, “Left”, etc.
+* **Street name** – the name of the road you are riding on.
+* **Time to destination** – estimated arrival time.
+* **Navigation status** – for example active navigation, riding, or GPS loss.
 
-#### Scenario 3: MTB Ride
+### Display in Bike Radar Overlay
 
-1. Start BRP
-2. Choose **MTB**
-3. Choose **Safer** or **Touring**
-4. Choose destination in terrain
-5. Start navigation
-
-#### Scenario 4: Round Trip Ride
-
-1. Start BRP
-2. Choose **Gravel** or **MTB**
-3. Tap **Round trip**
-4. Set distance (30-50 km)
-5. Generate round trip and edit points
-6. Start navigation
+* Bike Radar Overlay can display navigation on the lock screen or in riding mode.
+* If the next turn is closer than **200 m**, the display may turn on.
+* Radar alerts have higher priority than navigation instructions.
 
 ---
 
-### Chapter 11: General Tips
+## Chapter 8: Route Explanation
 
-#### Tip 1: Check Map Coverage
+### Why did the app choose a specific route?
 
-Before planning a long route, check if segments are downloaded:
-1. Tap **Offline data**
-2. Check if segments for the area are downloaded
-3. If not, download them in BRouter
+The app can display a route summary that helps explain why the route was calculated in a particular way.
 
-#### Tip 2: Use GPS Instead of Map Selection
+The summary may include:
 
-For quick selections:
-1. Tap the GPS icon
-2. Wait for the green icon
-3. Confirm selection
+* **Distance** – total route distance.
+* **Duration** – estimated riding time.
+* **Surface** – percentage distribution of surface types, such as asphalt or gravel.
+* **Traffic** – share of sections with different traffic levels.
+* **Risks** – number of problematic sections, such as sharp turns or U-turns.
 
-#### Tip 3: Check Warnings
+### More problematic sections
 
-Before starting your ride:
-1. Check orange warnings on the map
-2. Read explanations of problematic sections
-3. Consider if the route matches your abilities
+The app marks problematic sections in orange.
 
-#### Tip 4: Pause is Safe
+These may include:
 
-If you need a pause:
-1. Tap **Pause**
-2. The app still tracks your position
-3. After resuming, continues from the last position
+* **possible U-turns**,
+* **sharp direction reversals**,
+* **returning along the same road**.
 
-#### Tip 5: Use VARIA_RADAR
+### Mandatory filters
 
-If you have VARIA_RADAR:
-1. Install VARIA_RADAR app
-2. Connect navigation to VARIA_RADAR
-3. You can view navigation even with locked screen
-4. In case of risk (car from behind), the screen lights up
+The app excludes, for example, the following types of sections:
+
+* `highway=motorway` – motorways,
+* `bicycle=no` – cycling prohibited,
+* `access=private` without an exception,
+* `construction` – construction sites or roads under construction.
 
 ---
 
-## Frequently Asked Questions (FAQ)
+## Chapter 9: Variable Route Settings
 
-### Q: Why does it take so long to calculate the route?
+### Why are there multiple profiles?
 
-**A**: Offline routing can take several seconds, depending on:
-- Route length
-- Route complexity
-- Device performance
-- GPS signal availability
+Each bike type and route style uses its own profiling logic because different riders have different requirements:
 
-### Q: Why doesn't the app recommend routes through terrain?
+* **Road bikes** require primarily high-quality and smooth surfaces.
+* **Gravel bikes** can handle a mix of asphalt and light off-road sections.
+* **MTB bikes** are suitable for off-road and technical sections.
 
-**A**: This depends on the selected profile:
-- **Road** excludes terrain
-- **Gravel** and **MTB** allow it
-- Check your bike type settings
+### How does profiling work?
 
-### Q: Why doesn't navigation show in VARIA_RADAR?
+Profiling is based on a combination of several factors:
 
-**A**: Check:
-1. Is VARIA_RADAR installed?
-2. Did you start navigation in BRP (not just planning)?
-3. Does VARIA_RADAR have notification permissions?
+1. **Bike type** – determines which surfaces and roads are physically suitable.
+2. **Route style** – determines the trade-off between speed, safety, and distance.
+3. **User preferences** – for example excluding stairs, restrictions, or risky sections.
 
-### Q: Why is the route recalculated after pause?
+### Profile combination examples
 
-**A**: The app automatically recalculates the route when:
-- You leave the route more than 18 meters
-- This ensures you are still on the correct route
+#### Road + Safer
 
-### Q: Why are routes not showing on the map?
+* Prefers cycle paths and residential areas.
+* Avoids main roads when a suitable alternative is available.
+* The route may be longer but safer.
 
-**A**: Check:
-1. Is GPS signal stable?
-2. Are maps loaded (waiting for GPS)?
-3. Do you have internet connection (on first load)?
+#### Gravel + Faster
 
----
+* Allows light off-road sections.
+* Gives higher priority to speed.
+* May choose a faster option over gravel or unpaved roads.
 
-## Support and Feedback
+#### MTB + Safer
 
-### Where to Find Help?
-
-- **GitHub issues**: https://github.com/JoshuaxCZ/BIKE_ROUTE_PLANNER/issues
-- **Ko-fi support**: In the app menu (requires dev mode)
-
-### How to Provide Feedback?
-
-1. Open GitHub issues
-2. Describe the problem or suggestion
-3. Add information about your device and Android version
-4. Attach any screenshots if needed
+* Allows off-road sections.
+* Avoids dangerous or unsuitable paths.
+* Prefers safer passage through terrain.
 
 ---
 
-## Versions and Changes
+## Chapter 10: Typical Use Cases
 
-### Version 0.9.13
+### Use Case 1: Daily commute to work
 
-- Stability and improvements
-- Improved routing
-- Improved navigation
+1. Launch BRP.
+2. Select **Commute** and the **Faster** style.
+3. Select the start point, for example home.
+4. Select the destination, for example work.
+5. Start navigation.
+
+### Use Case 2: Weekend trip
+
+1. Launch BRP.
+2. Select **Gravel** or **Touring**.
+3. Select **Safer** or **Touring / Balanced**.
+4. Select the destination and review the suggested route.
+5. Start navigation.
+
+### Use Case 3: MTB ride
+
+1. Launch BRP.
+2. Select **MTB**.
+3. Select **Safer** or **Touring / Balanced**.
+4. Select an off-road destination.
+5. Start navigation.
+
+### Use Case 4: Loop ride
+
+1. Launch BRP.
+2. Select **Gravel** or **MTB**.
+3. Tap **Loop**.
+4. Set the distance, for example **30–50 km**.
+5. Generate the loop and adjust its points if needed.
+6. Start navigation.
+
+---
+
+## Chapter 11: General Tips
+
+### Tip 1: Check map data coverage
+
+Before planning a longer route, check whether you have downloaded the required segments:
+
+1. Tap **Offline data**.
+2. Check whether the segments for the selected area are available.
+3. If they are missing, download them in BRouter.
+
+### Tip 2: Use GPS for quick start selection
+
+1. Tap the GPS icon.
+2. Wait until the icon turns green.
+3. Confirm the use of your current location.
+
+### Tip 3: Check warnings before riding
+
+Before starting the ride, it is recommended to:
+
+1. Check orange warnings on the map.
+2. Read the explanation of problematic sections.
+3. Consider whether the route matches your abilities and bike type.
+
+### Tip 4: Pause is safe
+
+If you need a break:
+
+1. Tap **Pause**.
+2. The app will continue tracking your location.
+3. After resuming, navigation will continue from the current or last known location.
+
+### Tip 5: Use Bike Radar Overlay
+
+If you use Bike Radar Overlay:
+
+1. Install **Bike Radar Overlay**.
+2. Start navigation in BRP.
+3. You can view navigation instructions even when the screen is locked.
+4. If Bike Radar Overlay also shows radar alerts, those alerts take priority over navigation instructions.
+
+---
+
+## Frequently Asked Questions
+
+### Why does route calculation take so long?
+
+Offline route calculation may take a few seconds. The calculation time depends on:
+
+* route length,
+* complexity of the area,
+* device performance,
+* GPS signal availability,
+* availability of downloaded map data.
+
+### Why does the app not suggest off-road routes?
+
+This depends on the selected profile:
+
+* **Road** usually avoids off-road sections.
+* **Gravel** allows light off-road sections.
+* **MTB** is intended for off-road sections as well.
+
+Check your bike type and route style settings.
+
+### Why is navigation not shown in Bike Radar Overlay?
+
+Check the following:
+
+1. Bike Radar Overlay is installed.
+2. You have actually started navigation in BRP, not only route planning.
+3. Bike Radar Overlay has the required permissions, such as notification permission.
+
+### Why is the route recalculated after pausing?
+
+The app may automatically recalculate the route if you move away from the original route.
+
+This typically happens when:
+
+* you move more than approximately **18 meters** away from the route,
+* the app decides that a new route from the current location is needed.
+
+### Why is the route not displayed on the map?
+
+Check the following:
+
+1. the GPS signal is stable,
+2. map data has loaded,
+3. an internet connection is available during the first map load,
+4. the required BRouter segments for the area have been downloaded.
 
 ---
 
 ## License Information
 
 The app uses:
-- **BRouter** (GPL-3.0) - offline routing
-- **osmdroid** (Apache-2.0) - map rendering
-- **OpenStreetMap** (ODbL) - map data
+
+* **BRouter** – GPL-3.0, offline routing.
+* **osmdroid** – Apache-2.0, map display.
+* **OpenStreetMap** – ODbL, map data.
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
-The app was created with the goal of supporting the cycling community and providing a tool for route planning with an emphasis on safety and comfort.
+The app was created to support the cycling community and provide a route planning tool focused on safety, comfort, and flexibility.
 
-Thank you for your support and using Bike Route Planner!
+Thank you for your support and for using **Bike Route Planner**.
